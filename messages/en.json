@@ -1,0 +1,213 @@
+{
+  "HomePage": {
+    "ui": {
+      "title": "Welcome to the authbase.ai"
+    }
+  },
+  "Navbar": {
+    "ui": {
+      "signin": "Login",
+      "signout": "Logout"
+    }
+  },
+  "ErrorCard": {
+    "ui": {
+      "headerUnknownError": "Oops! Something went wrong",
+      "headerAccessDenied": "Invalid login information",
+      "headerProviderMismatch": "Login conflict",
+      "headerEmailUnverified": "Email not verified",
+      "backButton": "Back to sign in",
+      "unknownError": "An unexpected error occurred. Please try again later.",
+      "accessDenied": "Your login information is incorrect. Please check your login details.",
+      "providerMismatch": "This account is already registered with a different sign-in method.",
+      "emailUnverified": "Please verify your email address before signing in."
+    }
+  },
+  "SignInForm": {
+    "ui": {
+      "header": "Welcome back",
+      "resetLink": "Forgot password ?",
+      "code": "Two factor code",
+      "email": "Email",
+      "password": "Password",
+      "submitting": "Submitting...",
+      "confirm": "Confirm",
+      "submit": "Login",
+      "emailPasswordTab": "Email & password",
+      "emailCodeTab": "Email & code",
+      "continueWith": "Or continue with",
+      "google": "Google",
+      "apple": "Apple"
+    },
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email",
+        "max": "Email must not exceed 255 characters"
+      },
+      "password": {
+        "required": "Password is required",
+        "invalid": "Password must be 8+ characters"
+      }
+    },
+    "server": {
+      "success": {
+        "confirmationSent": "A confirmation email has been sent."
+      },
+      "error": {
+        "emailNotFound": "This email is not registered.",
+        "invalidCode": "Invalid verification code.",
+        "codeExpired": "The verification code has expired.",
+        "invalidCredentials": "Incorrect email or password."
+      }
+    }
+  },
+  "SignUpForm": {
+    "ui": {
+      "header": "Welcome back",
+      "backButton": "email password login",
+      "name": "Username",
+      "email": "Email",
+      "code": "Verification code",
+      "codePlaceholder": "Enter verification code",
+      "sendCode": "Send code",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submitting": "Submitting...",
+      "submit": "Login",
+      "codeSent": "Verification code sent!",
+      "emailRequired": "Please enter your email first"
+    },
+    "validation": {
+      "name": {
+        "required": "Username is required",
+        "invalid": "Username must be less than 50 characters"
+      },
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email",
+        "max": "Email must not exceed 255 characters"
+      },
+      "password": {
+        "required": "Password is required",
+        "invalid": "Password must be 8+ characters"
+      },
+      "confirmPassword": {
+        "required": "Password confirmation is required",
+        "invalid": "Password do not match"
+      },
+      "code": {
+        "required": "Verification code is required"
+      }
+    },
+    "server": {
+      "success": {
+        "confirmationSent": "A confirmation email has been sent."
+      },
+      "error": {
+        "emailExists": "This email is already registered.",
+        "emailThirdParty": "This email has already been used for third-party login."
+      }
+    }
+  },
+  "ResetForm": {
+    "ui": {
+      "header": "Reset your password",
+      "backButton": "Back to login",
+      "email": "Email",
+      "code": "Verification code",
+      "codePlaceholder": "Enter verification code",
+      "sendCode": "Send code",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "submitting": "Resetting...",
+      "submit": "Reset password",
+      "successMessage": "Password reset successfully.",
+      "emailRequired": "Please enter your email first",
+      "codeSent": "Verification code sent!"
+    },
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email",
+        "max": "Email must not exceed 255 characters"
+      },
+      "code": {
+        "required": "Verification code is required"
+      },
+      "newPassword": {
+        "required": "New password is required",
+        "invalid": "Password must be 8+ characters"
+      },
+      "confirmPassword": {
+        "required": "Password confirmation is required",
+        "invalid": "Passwords do not match"
+      }
+    },
+    "server": {
+      "success": {
+        "resetSent": "Reset email sent."
+      },
+      "error": {
+        "emailNotFound": "This email is not registered.",
+        "emailThirdParty": "This email has already been used for third-party login."
+      }
+    }
+  },
+  "NewPasswordForm": {
+    "ui": {
+      "header": "Reset your password",
+      "backButton": "Back to sign in",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "submitting": "Resetting...",
+      "submit": "Reset password"
+    },
+    "validation": {
+      "newPassword": {
+        "required": "Password is required",
+        "invalid": "Password must be 8+ characters"
+      },
+      "confirmPassword": {
+        "required": "Password confirmation is required",
+        "invalid": "Passwords do not match"
+      }
+    },
+    "server": {
+      "success": {
+        "passwordUpdated": "Password updated successfully."
+      },
+      "error": {
+        "emailNotFound": "This email is not registered.",
+        "emailThirdParty": "This email has already been used for third-party login."
+      }
+    }
+  },
+  "Common": {
+    "error": {
+      "generic": "Something went wrong!",
+      "invalidFields": "Invalid fields!",
+      "missingToken": "Missing token!",
+      "expiredToken": "Token has expired!",
+      "invalidToken": "Token is invalid!",
+      "captchaRequired": "Captcha token is required! Please click the captcha.",
+      "captchaError": "Failed to load captcha"
+    }
+  },
+  "Email": {
+    "verification": {
+      "subject": "Email verification",
+      "title": "Email verification",
+      "description": "Please verify your email address by clicking the button below.",
+      "button": "Verify email",
+      "ignoreNote": "If you didn't create an account, you can ignore this email."
+    },
+    "passwordReset": {
+      "subject": "Password reset",
+      "title": "Password reset",
+      "description": "You requested a password reset. Click the button below to reset your password.",
+      "button": "Reset password",
+      "ignoreNote": "If you didn't request a password reset, you can ignore this email."
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "HomePage": {
+    "ui": {
+      "title": "欢迎来到AuthBase.AI"
+    }
+  },
+  "Navbar": {
+    "ui": {
+      "signin": "登入",
+      "signout": "登出"
+    }
+  },
+  "ErrorCard": {
+    "ui": {
+      "headerUnknownError": "糟糕！出现了一些问题",
+      "headerAccessDenied": "无效的登录信息",
+      "headerProviderMismatch": "登录冲突",
+      "headerEmailUnverified": "邮箱未验证",
+      "backButton": "返回登录",
+      "unknownError": "发生意外错误，请稍后再试。",
+      "accessDenied": "您的登录信息不正确，请检查登录详情。",
+      "providerMismatch": "此账户已使用其他登录方式注册。",
+      "emailUnverified": "登录前请先验证您的邮箱地址。"
+    }
+  },
+  "SignInForm": {
+    "ui": {
+      "header": "欢迎回来",
+      "resetLink": "忘记密码 ？",
+      "code": "双重验证码",
+      "email": "电子邮件",
+      "password": "密码",
+      "submitting": "提交中...",
+      "confirm": "确认",
+      "submit": "登入",
+      "emailPasswordTab": "邮箱密码登录",
+      "emailCodeTab": "邮箱验证码登录",
+      "continueWith": "或继续使用",
+      "google": "谷歌",
+      "apple": "苹果"
+    },
+    "validation": {
+      "email": {
+        "required": "请输入电子邮件",
+        "invalid": "电子邮件格式不正确",
+        "max": "电子邮件长度不能超过255个字符"
+      },
+      "password": {
+        "required": "请输入密码",
+        "invalid": "密码长度至少 8 个字符"
+      }
+    },
+    "server": {
+      "success": {
+        "confirmationSent": "确认邮件已发送。"
+      },
+      "error": {
+        "emailNotFound": "该电子邮件尚未注册。",
+        "invalidCode": "验证码无效。",
+        "codeExpired": "验证码已过期。",
+        "invalidCredentials": "电子邮件或密码错误。"
+      }
+    }
+  },
+  "SignUpForm": {
+    "ui": {
+      "header": "创建账户",
+      "backButton": "已经拥有账户？",
+      "name": "用户名",
+      "email": "电子邮件",
+      "code": "验证码",
+      "codePlaceholder": "请输入验证码",
+      "sendCode": "发送验证码",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submitting": "注册中...",
+      "submit": "登入",
+      "codeSent": "验证码已发送！",
+      "emailRequired": "请先输入您的邮箱"
+    },
+    "validation": {
+      "name": {
+        "required": "请输入用户名",
+        "invalid": "用户名长度需小于 50 个字符"
+      },
+      "email": {
+        "required": "请输入电子邮件",
+        "invalid": "电子邮件格式不正确",
+        "max": "电子邮件长度不能超过255个字符"
+      },
+      "password": {
+        "required": "请输入密码",
+        "invalid": "密码长度至少 8 个字符"
+      },
+      "confirmPassword": {
+        "required": "请确认密码",
+        "invalid": "两次输入的密码不一致"
+      },
+      "code": {
+        "required": "请输入验证码"
+      }
+    },
+    "server": {
+      "success": {
+        "confirmationSent": "确认邮件已发送。"
+      },
+      "error": {
+        "emailExists": "该电子邮件已注册。",
+        "emailThirdParty": "该电子邮件已用于第三方登录。"
+      }
+    }
+  },
+  "ResetForm": {
+    "ui": {
+      "header": "重置您的密码",
+      "backButton": "返回登入",
+      "email": "电子邮件",
+      "code": "验证码",
+      "codePlaceholder": "请输入验证码",
+      "sendCode": "发送验证码",
+      "newPassword": "新密码",
+      "confirmPassword": "确认密码",
+      "submitting": "重置中...",
+      "submit": "重置密码",
+      "successMessage": "密码重置成功。",
+      "emailRequired": "请先输入您的邮箱",
+      "codeSent": "验证码已发送！"
+    },
+    "validation": {
+      "email": {
+        "required": "请输入电子邮件",
+        "invalid": "电子邮件格式不正确",
+        "max": "电子邮件长度不能超过255个字符"
+      },
+      "code": {
+        "required": "请输入验证码"
+      },
+      "newPassword": {
+        "required": "请输入新密码",
+        "invalid": "密码长度至少 8 个字符"
+      },
+      "confirmPassword": {
+        "required": "请确认新密码",
+        "invalid": "两次输入的密码不一致"
+      }
+    },
+    "server": {
+      "success": {
+        "resetSent": "密码重置邮件已发送。"
+      },
+      "error": {
+        "emailNotFound": "该电子邮件尚未注册。",
+        "emailThirdParty": "该电子邮件已用于第三方登录。"
+      }
+    }
+  },
+  "NewPasswordForm": {
+    "ui": {
+      "header": "重置您的密码",
+      "backButton": "返回登录",
+      "newPassword": "新密码",
+      "confirmPassword": "确认密码",
+      "submitting": "重置中...",
+      "submit": "重置密码"
+    },
+    "validation": {
+      "newPassword": {
+        "required": "请输入新密码",
+        "invalid": "密码长度至少 8 个字符"
+      },
+      "confirmPassword": {
+        "required": "请确认新密码",
+        "invalid": "两次输入的密码不一致"
+      }
+    },
+    "server": {
+      "success": {
+        "passwordUpdated": "密码已成功更新。"
+      },
+      "error": {
+        "emailNotFound": "该电子邮件尚未注册。",
+        "emailThirdParty": "该电子邮件已用于第三方登录。"
+      }
+    }
+  },
+  "Common": {
+    "error": {
+      "generic": "出现了一些问题！",
+      "invalidFields": "字段无效！",
+      "missingToken": "缺少令牌！",
+      "expiredToken": "令牌已过期！",
+      "invalidToken": "令牌无效！",
+      "captchaError": "加载图形验证码服务失败",
+      "captchaRequired": "我们需要验证您的身份! 请点击图形验证码。"
+    }
+  },
+  "Email": {
+    "verification": {
+      "subject": "邮箱验证",
+      "title": "邮箱验证",
+      "description": "请点击下方按钮验证您的邮箱地址。",
+      "button": "验证邮箱",
+      "ignoreNote": "如果您未创建账户，可以忽略此邮件。"
+    },
+    "passwordReset": {
+      "subject": "密码重置",
+      "title": "密码重置",
+      "description": "您请求了密码重置，请点击下方按钮重置您的密码。",
+      "button": "重置密码",
+      "ignoreNote": "如果您未请求密码重试，可以忽略此邮件。"
+    }
+  }
+}
