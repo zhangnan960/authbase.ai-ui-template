@@ -9,8 +9,6 @@ This project is a template project based on the AuthBase.AI UI SDK, demonstratin
 - Email & Password Authentication: Sign-in with email and password.
 - Email Verification: Ensure account validity by requiring users to confirm their email address.
 - Forgot Password Flow: Allow users to reset their password through a email link.
-- Two-Factor Authentication (2FA): Login requires a digit verification code sent via email.
-- User Account Settings: Let users update their username, change passwords, and enable or disable 2FA.
 - Internationalization (i18n) with Auth Integration: Built-in locale routing with authentication middleware support.
 - AuthBase.AI UI Components: Pre-built authentication UI components for seamless integration.
 
@@ -33,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## ⚙️ Environment Variables
 
-Create a .env file in the project root and include the following:
+Create a .env.local file in the project root and include the following:
 
 ```env
 NEXT_PUBLIC_AUTHBASE_PROJECT_ID="YOUR_AUTHBASE_PROJECT_ID"
